@@ -4,7 +4,7 @@
 
 SEBARO is an autonomous self-balancing robot designed and implemented as an engineering project. The robot employs the principles of an inverted pendulum system and implements real-time control algorithms to maintain its balance on two wheels.
 
-![Description of image]("media/overall.png")
+![Description of image](media/overall.png)
 
 ## Table of Contents
 
@@ -73,6 +73,7 @@ The project also aligns with broader engineering objectives in transportation en
      └──────────────────────────────┘
 
 </div>
+
 ## System Design
 
 ### Mechanical Structure
@@ -101,7 +102,7 @@ The MPU-6050 6-axis Inertial Measurement Unit (IMU) provides accurate orientatio
 - Digital Motion Processor for integrated sensor fusion
 - Configurable measurement ranges for optimized precision
 
-![PCB Schematic]("media/circuit_design.png")
+![PCB Schematic](media/circuit_design.png)
 
 #### Motor Control
 Two A4988 stepper motor drivers precisely control the BYGH40342 stepper motors with the following specifications:
@@ -113,7 +114,7 @@ Two A4988 stepper motor drivers precisely control the BYGH40342 stepper motors w
 
 The robot uses two wheels, each with a 10cm diameter and 2.5cm thickness, providing sufficient ground contact and stability.
 
-![PCB Layout]("media/PCB.png")
+![PCB Layout](media/PCB.png)
 
 ### Power Management
 
@@ -190,4 +191,4 @@ This project demonstrates practical applications of control theory, embedded sys
 
 ---
 
-*This project was developed by [Your Name] at [Your Institution] under the supervision of Dr. Ahmad Akbari.*
+*This project was developed by Faezeh Mosayyebi at Sahand University of Technology under the supervision of Dr. Ahmad Akbari.*
