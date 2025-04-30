@@ -106,7 +106,7 @@ The MPU-6050 6-axis Inertial Measurement Unit (IMU) provides accurate orientatio
 - Configurable measurement ranges for optimized precision
 
 <p align="center">
-  <img src="media/circuit_design.png" alt="PCB Schematic" width="300"/>
+  <img src="media/circuit_design.png" alt="PCB Schematic" width="500"/>
 </p>
 
 #### Motor Control
