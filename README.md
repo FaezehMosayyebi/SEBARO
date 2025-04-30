@@ -4,7 +4,9 @@
 
 SEBARO is an autonomous self-balancing robot designed and implemented as an engineering project. The robot employs the principles of an inverted pendulum system and implements real-time control algorithms to maintain its balance on two wheels.
 
-![Description of image](media/overall.png)
+<p align="center">
+  <img src="media/overall.png" alt="overall" width="300"/>
+</p>
 
 ## Table of Contents
 
@@ -30,6 +32,7 @@ This project demonstrates the implementation of a real-time feedback control sys
 The project also aligns with broader engineering objectives in transportation engineering, where reducing the number of wheels can contribute to enhanced energy efficiency and reduced material usage in vehicle design. Self-balancing systems like SEBARO could inform future developments in efficient personal transportation vehicles.
 <div style="text-align: center">
 
+```sh
                         ┌──────────────────────┐
                         │     User / Tuning    │
                         │ (PID Parameters etc.)│
@@ -71,7 +74,7 @@ The project also aligns with broader engineering objectives in transportation en
      │       Power Management       │
      │ (11.1V LiPo → Regulator 5V)  │
      └──────────────────────────────┘
-
+```
 </div>
 
 ## System Design
@@ -102,7 +105,9 @@ The MPU-6050 6-axis Inertial Measurement Unit (IMU) provides accurate orientatio
 - Digital Motion Processor for integrated sensor fusion
 - Configurable measurement ranges for optimized precision
 
-![PCB Schematic](media/circuit_design.png)
+<p align="center">
+  <img src="media/circuit_design.png" alt="PCB Schematic" width="300"/>
+</p>
 
 #### Motor Control
 Two A4988 stepper motor drivers precisely control the BYGH40342 stepper motors with the following specifications:
@@ -114,7 +119,9 @@ Two A4988 stepper motor drivers precisely control the BYGH40342 stepper motors w
 
 The robot uses two wheels, each with a 10cm diameter and 2.5cm thickness, providing sufficient ground contact and stability.
 
-![PCB Layout](media/PCB.png)
+<p align="center">
+  <img src="media/PCB.png" alt="PCB Layout" width="300"/>
+</p>
 
 ### Power Management
 
